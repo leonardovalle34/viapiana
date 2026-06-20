@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #d4a017;
+  --red: #8b1a1a;
+  --dark: #1a0a00;
+  --darker: #110500;
+  --darkest: #0d0400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* ── Category buttons — fiel ao design do protótipo ── */
+.cat-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.cat-btn:hover {
+  transform: translateY(-3px);
+}
+.cat-btn-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #6b1414, #3a0808);
+  border: 2.5px solid #2a0606;
+  box-shadow:
+    0 4px 16px rgba(0,0,0,0.6),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.cat-btn:hover .cat-btn-circle {
+  border-color: #d4a017;
+  box-shadow:
+    0 6px 20px rgba(0,0,0,0.7),
+    0 0 0 1px rgba(212,160,23,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.cat-btn-circle svg {
+  width: 30px;
+  height: 30px;
+  color: #d4a017;
+  opacity: 0.9;
+}
+.cat-btn-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,0.75);
+  font-family: 'Inter', sans-serif;
+}
+.cat-btn.active .cat-btn-circle {
+  border-color: #d4a017;
+  background: radial-gradient(circle at 35% 35%, #7a1818, #4a0a0a);
+  box-shadow:
+    0 0 0 2px rgba(212,160,23,0.5),
+    0 6px 20px rgba(0,0,0,0.7),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.cat-btn.active .cat-btn-label {
+  color: #d4a017;
+}
