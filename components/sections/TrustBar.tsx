@@ -1,7 +1,6 @@
 const items = [
   "🔥 Espeto Corrido",
   "🍽️ Buffet Completo",
-  "🍣 Sushi",
   "🍰 Sobremesas",
   "📍 BR-280, Araquari SC",
 ];

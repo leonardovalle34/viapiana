@@ -6,7 +6,7 @@ import CategoryButtons from "@/components/ui/CategoryButtons";
 
 type CategoryId =
   | "buffet"
-  | "sushi"
+  | "espeto"
   | "sobremesas"
   | "horario"
   | "pizzas"
@@ -34,9 +34,25 @@ const categoryData: Record<
       },
     ],
   },
-  sushi: {
-    title: "Sushi",
+  espeto: {
+    title: "Espeto Corrido",
     images: [
+      {
+        src: "/images/cardapio/espeto0.png",
+        alt: "Espetos corridos da Churrascaria Viapiana",
+      },
+      {
+        src: "/images/cardapio/espeto1.png",
+        alt: "Espetos corridos da Churrascaria Viapiana",
+      },
+      {
+        src: "/images/cardapio/espeto2.png",
+        alt: "Espetos corridos da Churrascaria Viapiana",
+      },
+      {
+        src: "/images/cardapio/espeto3.png",
+        alt: "Espetos corridos da Churrascaria Viapiana",
+      },
       {
         src: "/images/cardapio/sushi-01.png",
         alt: "Bandejas de sushi e uramaki da Churrascaria Viapiana",

@@ -2,22 +2,22 @@
 import { useState } from "react";
 import {
   UtensilsCrossed,
-  Fish,
   IceCream,
   Clock,
   Pizza,
   Beef,
   Store,
+  Flame,
 } from "lucide-react";
 
 const categories = [
-  { id: "buffet",      label: "Buffet",       Icon: UtensilsCrossed },
-  { id: "sushi",       label: "Sushi",        Icon: Fish },
-  { id: "sobremesas",  label: "Sobremesas",   Icon: IceCream },
-  { id: "horario",     label: "Horário",      Icon: Clock },
-  { id: "pizzas",      label: "Pizzas Doces", Icon: Pizza },
-  { id: "carnes",      label: "Carnes",       Icon: Beef },
-  { id: "ambiente",    label: "Ambiente",     Icon: Store },
+  { id: "buffet", label: "Buffet", Icon: UtensilsCrossed },
+  { id: "espeto", label: "Espeto corrido", Icon: Flame },
+  { id: "sobremesas", label: "Sobremesas", Icon: IceCream },
+  { id: "horario", label: "Horário", Icon: Clock },
+  { id: "pizzas", label: "Pizzas Doces", Icon: Pizza },
+  { id: "carnes", label: "Carnes", Icon: Beef },
+  { id: "ambiente", label: "Ambiente", Icon: Store },
 ];
 
 interface Props {
