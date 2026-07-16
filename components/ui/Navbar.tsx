@@ -5,11 +5,10 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { href: "#cardapio",    label: "Cardápio" },
-  { href: "#sobre",       label: "Sobre" },
-  { href: "#horarios",    label: "Horários" },
+  { href: "#cardapio", label: "Cardápio" },
+  { href: "#sobre", label: "Sobre" },
+  { href: "#horarios", label: "Horários" },
   { href: "#localizacao", label: "Localização" },
-  { href: "#contato",     label: "Contato" },
 ];
 
 export default function Navbar() {
@@ -48,7 +47,7 @@ export default function Navbar() {
 
         {/* CTA Desktop */}
         <a
-          href="#contato"
+          href="#localizacao"
           className="hidden md:inline-block bg-[#8b1a1a] hover:bg-[#a51f1f] text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-sm transition-colors duration-200"
         >
           Fazer Reserva
