@@ -5,7 +5,8 @@ export default function Hero() {
     <section
       className="relative min-h-[90vh] flex items-center justify-center text-center px-6 py-20 overflow-hidden"
       style={{
-        background: "radial-gradient(ellipse at 30% 50%, #3d1a00 0%, #1a0a00 70%)",
+        background:
+          "radial-gradient(ellipse at 30% 50%, #3d1a00 0%, #1a0a00 70%)",
       }}
     >
       {/* Glow overlay */}
@@ -32,22 +33,30 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-2xl">
         <p className="inline-block border border-[#d4a017] text-[#d4a017] text-[10px] px-5 py-1.5 rounded-full mb-6 uppercase tracking-[2px]">
-          Espeto Corrido · À La Carte · Araquari, SC
+          Espeto Corrido · Buffet livre · Eventos · Convênio com empresas
         </p>
-
-        <h1 className="font-display font-bold text-white leading-[1.05] mb-4"
-          style={{ fontSize: "clamp(40px, 7vw, 72px)" }}
-        >
-          Seu dia pede<br />
-          <span className="text-[#d4a017]">Viapiana.</span>
-        </h1>
-
-        <p className="text-white/55 leading-[1.8] mb-9"
+        <div>
+          <h1
+            className="font-display font-bold text-white leading-[1.05] mb-4"
+            style={{ fontSize: "clamp(40px, 7vw, 72px)" }}
+          >
+            Seu dia pede
+          </h1>
+          <Image
+            src="/images/logo-viapiana.png"
+            alt="Viapiana"
+            width={320}
+            height={120}
+            className="mx-auto w-150 h-auto object-contain mt-[-82px]"
+          />
+        </div>
+        <p
+          className="text-white/55 leading-[1.8] mb-9"
           style={{ fontSize: "clamp(14px, 2vw, 16px)" }}
         >
-          A melhor churrascaria de Araquari — espeto corrido, buffet completo,
+          A melhor churrascaria da regiao — espeto corrido, buffet completo,
           <br className="hidden md:block" />
-          sushi e sobremesas. Uma experiência inesquecível para toda a família.
+          com sobremesas. Uma experiência inesquecível para toda a família.
         </p>
 
         <div className="flex gap-3.5 justify-center flex-wrap">

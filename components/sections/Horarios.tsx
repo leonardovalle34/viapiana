@@ -1,9 +1,4 @@
-const horarios = [
-  { dia: "Seg – Sex", hora: "11h – 15h" },
-  { dia: "Sábado",    hora: "11h – 16h" },
-  { dia: "Domingo",   hora: "11h – 16h" },
-  { dia: "Feriados",  hora: "11h – 15h" },
-];
+const horarios = [{ dia: "Todos os dias", hora: "11h – 14h" }];
 
 export default function Horarios() {
   return (

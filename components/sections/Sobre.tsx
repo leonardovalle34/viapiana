@@ -1,9 +1,9 @@
 export default function Sobre() {
   const stats = [
     { num: "19k+", label: "Seguidores" },
-    { num: "5 ★",  label: "Avaliação" },
-    { num: "369",  label: "Publicações" },
-    { num: "+33",  label: "Anos" },
+    { num: "5 ★", label: "Avaliação" },
+    { num: "369", label: "Publicações" },
+    { num: "+33", label: "Anos" },
   ];
 
   return (
@@ -15,22 +15,33 @@ export default function Sobre() {
             <p className="text-[10px] uppercase tracking-[3px] text-[#8b1a1a] mb-2">
               Nossa História
             </p>
-            <h2 className="font-display font-bold text-white leading-tight mb-3"
+            <h2
+              className="font-display font-bold text-white leading-tight mb-3"
               style={{ fontSize: "clamp(26px,4vw,38px)" }}
             >
-              A churrascaria que<br />
+              A churrascaria que
+              <br />
               <span className="text-[#d4a017]">para o trânsito</span>
             </h2>
             <div className="w-14 h-0.5 bg-[#d4a017] mb-5" />
             <p className="text-sm text-white/55 leading-[1.9] mb-4">
-              A Churrascaria Viapiana é referência gastronômica em Araquari e região.
-              Localizada na BR-280, atende famílias, grupos e eventos com qualidade,
-              fartura e um atendimento acolhedor.
+              Há 33 anos, a Churrascaria Viapiana faz parte da história de
+              Araquari e da região, oferecendo refeições de qualidade,
+              atendimento atencioso e um ambiente acolhedor para famílias,
+              grupos e empresas.
+            </p>
+            <p className="text-sm text-white/55 leading-[1.9] mb-4">
+              Localizada às margens da BR-280, a Viapiana é reconhecida pela
+              variedade de opções, pelo cuidado no preparo dos alimentos e pelo
+              compromisso em proporcionar uma excelente experiência a cada
+              cliente. Essa dedicação se reflete nas dezenas de avaliações 5
+              estrelas e em uma comunidade com mais de 19 mil seguidores no
+              Instagram.
             </p>
             <p className="text-sm text-white/55 leading-[1.9] mb-7">
-              Com mais de 19 mil seguidores no Instagram, 33 anos de história e dezenas de
-              avaliações 5 estrelas, a Viapiana é a escolha certa para quem quer
-              uma refeição inesquecível na região norte de Santa Catarina.
+              A Churrascaria Viapiana também oferece convênios para empresas, e
+              atua no fornecimento de refeições transportadas, sempre com
+              qualidade, pontualidade e um atendimento de confiança.
             </p>
             <a
               href="#contato"

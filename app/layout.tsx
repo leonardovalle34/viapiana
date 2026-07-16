@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Churrascaria Viapiana",
   },
   description:
-    "A melhor churrascaria de Araquari e região. Espeto corrido, buffet completo, sushi e sobremesas. Localizada na BR-280, Km 29 — Porto Grande, Araquari, SC.",
+    "A melhor churrascaria de Araquari e região. Espeto corrido, buffet completo e sobremesas. Localizada na BR-280, Km 29 — Porto Grande, Araquari, SC.",
   keywords: [
     "churrascaria araquari",
     "churrascaria viapiana",
@@ -118,7 +118,11 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
