@@ -43,12 +43,12 @@ export default function Sobre() {
               atua no fornecimento de refeições transportadas, sempre com
               qualidade, pontualidade e um atendimento de confiança.
             </p>
-            <a
+            {/* <a
               href="#contato"
               className="inline-block bg-[#d4a017] hover:bg-[#c49015] text-[#1a0a00] text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-sm transition-colors duration-200"
             >
               Conheça nossa história
-            </a>
+            </a> */}
           </div>
 
           {/* Stats */}
