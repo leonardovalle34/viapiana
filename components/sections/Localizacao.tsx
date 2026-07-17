@@ -1,6 +1,6 @@
 export default function Localizacao() {
   const MAPS_URL =
-    "https://www.google.com/maps/place/Churrascaria+Viapiana/@-26.3784,-48.7217,17z";
+    "https://www.google.com/maps/place/Churrascaria+Viapiana/@-26.406669,-48.748671,1383m/data=!3m1!1e3!4m6!3m5!1s0x94deca9cbab39593:0x15bf1000228fb9be!8m2!3d-26.4066694!4d-48.7486714!16s%2Fg%2F1tgkjfm7?hl=en&entry=ttu&g_ep=EgoyMDI2MDcxNC4wIKXMDSoASAFQAw%3D%3D";
   const WPP_URL =
     "https://wa.me/554734522100?text=Olá%2C+gostaria+de+fazer+uma+reserva!";
 
@@ -29,7 +29,7 @@ export default function Localizacao() {
           <div className="rounded overflow-hidden border border-[#d4a017]/20 h-[280px]">
             <iframe
               title="Localização Churrascaria Viapiana no Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.6!2d-48.7217!3d-26.3784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDIyJzQyLjIiUyA0OMKwNDMnMTkuMyJX!5e0!3m2!1spt!2sbr!4v1700000000000!5m2!1spt!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.505166240964!2d-48.75124632525272!3d-26.406664572249113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deca9cbab39593%3A0x15bf1000228fb9be!2sChurrascaria%20Viapiana!5e1!3m2!1sen!2sbr!4v1784246585192!5m2!1sen!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -47,7 +47,8 @@ export default function Localizacao() {
                   Endereço
                 </dt>
                 <dd>
-                  Rodovia BR-280, nº 3177 (Km 29)<br />
+                  Rodovia BR-280, nº 3177 (Km 29)
+                  <br />
                   Porto Grande — Araquari, SC
                 </dd>
               </div>
@@ -56,7 +57,10 @@ export default function Localizacao() {
                   Telefone
                 </dt>
                 <dd>
-                  <a href="tel:+554734522100" className="hover:text-[#d4a017] transition-colors">
+                  <a
+                    href="tel:+554734522100"
+                    className="hover:text-[#d4a017] transition-colors"
+                  >
                     (47) 3452-2100
                   </a>
                 </dd>
