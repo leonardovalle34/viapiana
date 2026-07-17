@@ -18,18 +18,6 @@ export default function Hero() {
         }}
       />
 
-      {/* Espeto image — decorativo, posição absoluta à direita */}
-      <div className="absolute right-0 bottom-0 h-full w-[40%] max-w-[480px] pointer-events-none hidden lg:block">
-        <Image
-          src="/images/espeto-viapiana.png"
-          alt="Espeto de carne na brasa — Churrascaria Viapiana"
-          fill
-          priority
-          className="object-contain object-right-bottom opacity-80"
-          sizes="40vw"
-        />
-      </div>
-
       {/* Content */}
       <div className="relative z-10 max-w-2xl">
         <p className="inline-block border border-[#d4a017] text-[#d4a017] text-[10px] px-5 py-1.5 rounded-full mb-6 uppercase tracking-[2px]">
